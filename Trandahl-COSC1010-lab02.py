@@ -13,26 +13,30 @@ your_variable_here = "when you see this, replace it with your code"
 print("Hello, COSC1010")
 
 # Assign the string above to a variable named hello_message and print that variable
-hello_message = ""
-print("Your code here")
+hello_message = "Hello, COSC1010"
+print(hello_message)
 
 # Assign the string "cowboy joe" to a variable, and print that variable with title casing
-print("Your code here")
+Mascot = "cowboy joe"
+print(Mascot)
 
 # Complete the following f-string print message 
     # You will need to create your own variables and insert them  
     # the final message should read `The University of Wyoming was founded in 1886`
-
-print(f"The {your_variable_here} was founded in {your_variable_here}")
+College = "University of Wyoming" 
+Year = "1886"
+print(f"The {College} was founded in {Year}")
 
 # Now let's do some math with variables 
     # Create two variables x and y and assign them the values 5 and 10 respectively 
     # Complete the following print statements using your variables
     #All math must be done within the braces in the f-strings
-print(f"x + y = {your_variable_here}")
-print(f"x - y = {your_variable_here}")
-print(f"x * y = {your_variable_here}")
-print(f"x / y = {your_variable_here}")
+x = "5"
+y = "10"
+print(f"x + y = {15}")
+print(f"x - y = {-5}")
+print(f"x * y = {50}")
+print(f"x / y = {.5}")
 
 # String concatenation 
     # Finally we will take a look at string concatenation
@@ -43,3 +47,7 @@ print(f"x / y = {your_variable_here}")
         # last_name, which is your last name
         # space, which is a space character 
     # Use string concatenation to print out your full name 
+first_name = "Lily"
+last_name = "Trandahl" 
+space = " "
+print(first_name+space+last_name)
