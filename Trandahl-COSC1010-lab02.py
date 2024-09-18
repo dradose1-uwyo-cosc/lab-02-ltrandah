@@ -1,6 +1,6 @@
-# Your Name Here
+# Lily Trandahl
 # UWYO COSC 1010
-# Submission Date
+# 
 # Lab 02 
 # Lab Section: 
 # Sources, people worked with, help given to: 
